@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 
-export const Cover = ({ src}) => {
+export const Cover = ({src}) => {
     return(
         <Image src = {src} alt="Обложка"/>
     )
@@ -13,12 +13,12 @@ export const Title = ({children}) =>{
     )
 }
 
-export const Artst = ({arist}) =>{
+export const Artst = ({artist}) =>{
     return (
         <p>{artist}</p>
     )
 }
-export const Duration = ({Duration})=>{
+export const Duration = ({duration})=>{
     return(
         <span>{duration}</span>
     )
